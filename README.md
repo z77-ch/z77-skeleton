@@ -5,17 +5,20 @@ Starter template for a project built on the
 
 ## Start a project
 
+**Without git** — the simplest way:
+```bash
+composer create-project z77/skeleton my-project
+cd my-project
+composer dev        # serves http://localhost:8080 from public/
+```
+
+**With git** — use this repo as a GitHub template:
 1. Click **Use this template** → create your repository, then clone it.
-2. Install — this pulls the framework packages from Packagist and runs the installer:
-   ```bash
-   composer install
-   ```
-   The installer creates `public/`, `config/`, `data/`, `override/`, `lib/`, `logs/`
-   and seeds a runnable starter site. You don't create these by hand.
-3. Run it locally:
-   ```bash
-   composer dev        # serves http://localhost:8080 from public/
-   ```
+2. `composer install`
+3. `composer dev`
+
+Either way, the installer creates `public/`, `config/`, `data/`, `override/`, `lib/`,
+`logs/` and seeds a runnable starter site. You don't create these by hand.
 
 You write your project under `override/z77/…`; the framework packages stay untouched
 in `vendor/` and are updated with `composer update`.

@@ -1,6 +1,6 @@
 {
-    "name": "myvendor/myproject",
-    "description": "A z77 framework project",
+    "name": "z77/skeleton",
+    "description": "Project skeleton for the z77 framework — composer create-project z77/skeleton my-project",
     "type": "project",
     "license": "MIT",
 

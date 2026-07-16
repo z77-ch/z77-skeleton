@@ -2,7 +2,15 @@
     "name": "z77/skeleton",
     "description": "Project skeleton for the z77 framework — composer create-project z77/skeleton my-project",
     "type": "project",
+    "keywords": ["php", "framework", "mvc", "skeleton", "starter", "z77"],
+    "homepage": "https://github.com/z77-ch/z77-framework",
     "license": "MIT",
+
+    "support": {
+        "issues": "https://github.com/z77-ch/z77-framework/issues",
+        "source": "https://github.com/z77-ch/z77-skeleton",
+        "docs": "https://github.com/z77-ch/z77-framework/tree/main/docs"
+    },
 
     "authors": [
         {

@@ -3,6 +3,16 @@
 Starter template for a project built on the
 [z77 framework](https://github.com/z77-ch/z77-framework).
 
+## Prerequisites
+
+- **PHP ≥ 8.2 (CLI)** with the `mbstring`, `fileinfo` and `gd` extensions enabled —
+  the installer and the site run on it (`apcu` is optional but recommended: faster cache)
+- **Composer 2.x**
+
+That's all. Node.js is only needed if you edit the framework's SCSS — see
+[dev-environment](https://github.com/z77-ch/z77-framework/blob/main/docs/01-handbook/dev-environment.md)
+for the full toolchain.
+
 ## Start a project
 
 **Without git** — the simplest way:

@@ -24,10 +24,10 @@
 
     "require": {
         "php": ">=8.2",
-        "z77/kernel": "^1.0",
-        "z77/module-frontend": "^1.0",
-        "z77/module-backend": "^1.0",
-        "z77/module-dms": "^1.0"
+        "z77/kernel": "^2.0",
+        "z77/module-frontend": "^2.0",
+        "z77/module-backend": "^2.0",
+        "z77/module-dms": "^2.0"
     },
 
     "autoload": {
